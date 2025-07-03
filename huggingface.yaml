@@ -1,0 +1,12 @@
+env:
+  accelerate: false
+  python: 3.10
+  python_packages:
+    - "uvicorn"
+    - "fastapi"
+    - "gradio>=4.0.0"
+    - "google-generativeai"
+    - "requests"
+    - "python-dotenv"
+
+app_port: 7860
